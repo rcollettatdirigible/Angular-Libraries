@@ -5,7 +5,7 @@ import { Component, Input } from "@angular/core";
   templateUrl: './hero.component.html',
   styleUrls: ['./hero.component.css']
 })
-export class AppComponent {
+export class HeroComponent {
   @Input()
   heading: string = "";
   
