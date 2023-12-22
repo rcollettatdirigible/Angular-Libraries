@@ -19,3 +19,5 @@ describe('HeroComponent', () => {
     expect(component).toBeTruthy();
   });
 });
+
+export { HeroComponent };
