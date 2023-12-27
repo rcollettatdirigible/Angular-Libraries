@@ -12,4 +12,7 @@ export class HeroComponent {
   
   @Input()
   description: string = "";
+
+  @Input()
+  typeWritter: boolean =false
 }
